@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>first signup form</title>
+</head>
+<body>
+ <form autocomplete="off"   class="form">
+    <p class="title">Register</p>
+    <p class="message">Singup now and get full access to our app.</p>  
+    <div class="form-group">
+        <label>
+            <input type="text" required>
+            <span>First name</span>
+        </label>
+        <label>
+            <input type="text" required>
+            <span>Last name</span>
+        </label>
+
+    </div>
+<label>
+    <input type="email" required>
+    <span>youremain@gmail.com</span>
+</label>
+<label>
+    <input type="password" id="password" required>
+    <span>Password</span>
+    <span class="icon" id="togglepassword">
+        <i class="far fa-eye-slash"></i>
+    </span>
+</label>
+<label>
+    <input type="password" id="passwordconfirm" required>
+    <span>Confirm Password</span>
+    <span class="icon" id="togglepassword">
+        <i class="far fa-eye-slash"></i>
+    </span>
+
+</label>
+<button class="submit">Submit</button>
+<p class="signin">Already have an account?
+    <a href="#">signin</a>
+</p>
+ </form>
+</body>
+</html>
