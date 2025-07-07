@@ -1,0 +1,58 @@
+nav ul {
+    display:flex;
+    gap: 25%;
+
+}
+nav li {
+    margin: 20px;
+    list-style:none ;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    color: aquamarine;
+}
+nav{
+    background-color: orange;
+    border-radius: 10px;
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+.hero-container p{
+    overflow-x: hidden;
+    padding-right: 10px;
+    font-size:1.25em;
+}
+.hero-container img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px lightgreen;
+    
+}
+.hero-container button{
+    background-color:orange;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-container button:hover{
+    background-color: rgb(245, 110, 62);
+    font-weight: 600;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+body{
+    max-width: 1270px;
+    background-color: cadetblue;
+    margin:0 auto;
+}
