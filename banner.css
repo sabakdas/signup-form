@@ -17,6 +17,7 @@ nav a:hover{
 nav{
     background-color: orange;
     border-radius: 10px;
+    box-shadow: 3px 3px 4px white;
 
 }
 .hero-container{
